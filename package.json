@@ -1,0 +1,25 @@
+{
+  "name": "amethyst",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ArrowAced",
+  "license": "MIT",
+  "type": "module",
+  "nodemonConfig": {
+    "watch": ["index.js"]
+  },
+  "dependencies": {
+    "@-silver/random-rng": "^1.0.1",
+    "audic": "^3.0.1",
+    "dot-env": "^0.0.1",
+    "dotenv": "^16.0.3",
+    "lowdb": "^5.0.5",
+    "node-fetch": "^2.6.7",
+    "random": "^4.1.0",
+    "ws": "^8.11.0"
+  }
+}
